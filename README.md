@@ -1,7 +1,13 @@
 Given four files `SongController.java`, `SongRepository.java`, `SongService.java`, and  `Song.java`.
 The `SongService` class has a variable named `playlist`, which is a HashMap that holds `Integer`s as keys and `Song` objects as values. Initially, it contains data of 5 songs.
 
-### Completion Instructions
+### NOTE
+```
+The crud operations done won't persist after reload. Since it's not connected to a Database. 
+    Basic data is available in (src/main/java/com/example/player/PlayerService.java) file.
+```
+
+### Instructions
 
 - `Song.java`: The `Song` class should contain the following attributes.
 
@@ -142,3 +148,14 @@ Updates the details of a song in the `playlist` based on the `songId`. If the gi
 Deletes a song from the `playlist`  based on the `songId`. If the given `songId` is not found in the `playlist`, raise `ResponseStatusException` with `HttpStatus.NOT_FOUND`.
 
 **Do not modify the code in the `SongApplication.java`.**
+
+<br></br>
+### After project setup in IDE
+```
+> After: | mvn spring-boot:run | in Terminal.
+> Go to the Postman website. 
+> Check for the import option and import the (Cricket Team SpringBoot CRUD.postman_collection.json) file
+    to list all the HTTP methods templates to do crud operations; (Update/Provide own the api link).
+> For POST/PUT Operations in POSTMAN body>raw>json.
+```
+<a href="https://www.postman.com/"> POSTMAN </a>
