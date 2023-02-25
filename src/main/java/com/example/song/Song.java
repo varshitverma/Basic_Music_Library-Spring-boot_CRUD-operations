@@ -1,7 +1,6 @@
 package com.example.song;
 
 public class Song {
-
     private int songId;
     private String songName;
     private String lyricist;
@@ -16,43 +15,39 @@ public class Song {
         this.musicDirector = musicDirector;
     }
 
-    public int getsongId() {
-        return songId;
-    }
-
-    public void setsongId(int songId) {
+    public void setSongId(int songId) {
         this.songId = songId;
     }
-
-    public String getSongName() {
-        return songName;
+    public int getSongId() {
+        return this.songId;
     }
 
     public void setSongName(String songName) {
         this.songName = songName;
     }
-
-    public String getLyricist() {
-        return lyricist;
+    public String getSongName() {
+        return this.songName;
     }
 
     public void setLyricist(String lyricist) {
         this.lyricist = lyricist;
     }
-
-    public String getSinger() {
-        return singer;
+    public String getLyricist() {
+        return this.lyricist;
     }
 
     public void setSinger(String singer) {
         this.singer = singer;
     }
-
-    public String getMusicDirector() {
-        return musicDirector;
+    public String getSinger() {
+        return this.singer;
     }
 
     public void setMusicDirector(String musicDirector) {
         this.musicDirector = musicDirector;
     }
+    public String getMusicDirector() {
+        return this.musicDirector;
+    }
+    
 }
