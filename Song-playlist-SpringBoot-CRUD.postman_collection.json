@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "ec4cc033-8c43-4c45-97c2-58cccec482de",
+		"name": "Song-playlist-SpringBoot-CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25801922"
+	},
+	"item": [
+		{
+			"name": "https://penumatsavarshitgupybjsbcpopz9a.drops.nxtwave.tech/songs/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://penumatsavarshitgupybjsbcpopz9a.drops.nxtwave.tech/songs/",
+					"protocol": "https",
+					"host": [
+						"penumatsavarshitgupybjsbcpopz9a",
+						"drops",
+						"nxtwave",
+						"tech"
+					],
+					"path": [
+						"songs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://penumatsavarshitgupybjsbcpopz9a.drops.nxtwave.tech/songs/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"songName\": \"Qwerty\",\r\n        \"lyricist\": \"Qwerty 1 \",\r\n        \"singer\": \"Qwerty Qwe\",\r\n        \"musicDirector\": \"Qwerty12\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://penumatsavarshitgupybjsbcpopz9a.drops.nxtwave.tech/songs/",
+					"protocol": "https",
+					"host": [
+						"penumatsavarshitgupybjsbcpopz9a",
+						"drops",
+						"nxtwave",
+						"tech"
+					],
+					"path": [
+						"songs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://penumatsavarshitgupybjsbcpopz9a.drops.nxtwave.tech/songs/2/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://penumatsavarshitgupybjsbcpopz9a.drops.nxtwave.tech/songs/2/",
+					"protocol": "https",
+					"host": [
+						"penumatsavarshitgupybjsbcpopz9a",
+						"drops",
+						"nxtwave",
+						"tech"
+					],
+					"path": [
+						"songs",
+						"2",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://penumatsavarshitgupybjsbcpopz9a.drops.nxtwave.tech/songs/2/",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"songName\": \"Kathari Poovazhagi Edited\",\r\n    \"lyricist\": \"Vijay Edited\",\r\n    \"singer\": \"Benny Dayal, Swetha Mohan Edited\",\r\n    \"musicDirector\": \"A.R. Edited\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://penumatsavarshitgupybjsbcpopz9a.drops.nxtwave.tech/songs/2/",
+					"protocol": "https",
+					"host": [
+						"penumatsavarshitgupybjsbcpopz9a",
+						"drops",
+						"nxtwave",
+						"tech"
+					],
+					"path": [
+						"songs",
+						"2",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://penumatsavarshitgupybjsbcpopz9a.drops.nxtwave.tech/songs/1/",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://penumatsavarshitgupybjsbcpopz9a.drops.nxtwave.tech/songs/1/",
+					"protocol": "https",
+					"host": [
+						"penumatsavarshitgupybjsbcpopz9a",
+						"drops",
+						"nxtwave",
+						"tech"
+					],
+					"path": [
+						"songs",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
