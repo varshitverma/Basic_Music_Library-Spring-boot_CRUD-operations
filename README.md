@@ -3,7 +3,7 @@ The `SongService` class has a variable named `playlist`, which is a HashMap that
 
 ### NOTE
 ```
-The crud operations done won't persist after reload. Since it's not connected to a Database. 
+The crud operations done won't persist after restart||stopping. Since it's not connected to a Database. 
     Basic data is available in (/src/main/java/com/example/song/SongService.java) file.
 ```
 
