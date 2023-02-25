@@ -2,11 +2,11 @@
 package com.example.song;
 
 public class Song {
-    int songId;
-    String songName;
-    String lyricist;
-    String singer;
-    String musicDirector;
+    private int songId;
+    private String songName;
+    private String lyricist;
+    private String singer;
+    private String musicDirector;
 
     public Song(int songId, String songName, String lyricist, String singer, String musicDirector) {
         this.songId = songId;
