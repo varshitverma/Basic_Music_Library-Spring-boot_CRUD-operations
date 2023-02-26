@@ -150,7 +150,7 @@ Deletes a song from the `playlist`  based on the `songId`. If the given `songId`
 **Do not modify the code in the `SongApplication.java`.**
 
 <br></br>
-### After project setting up IDE
+### After setting up project in IDE
 ```
 > After: | mvn spring-boot:run | in Terminal.
 > Go to the Postman website. 
