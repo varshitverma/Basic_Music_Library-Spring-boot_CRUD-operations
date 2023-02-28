@@ -3,8 +3,9 @@ The `SongService` class has a variable named `playlist`, which is a HashMap that
 
 ### NOTE
 ```
-The crud operations done won't persist after restart||stopping server. Since it's not connected to a Database. 
-    Basic data is available in (/src/main/java/com/example/song/SongService.java) file.
+The crud operations done won't persist after restart||stopping server. 
+Since it's not connected to a Database. 
+Basic data is available in (/src/main/java/com/example/song/SongService.java) file.
 ```
 
 ### Instructions
@@ -152,10 +153,8 @@ Deletes a song from the `playlist`  based on the `songId`. If the given `songId`
 <br></br>
 ### After setting up project in IDE
 ```
-> After: | mvn spring-boot:run | in Terminal.
-> Go to the Postman website. 
-> Check for the import option and import the (Song-playlist-SpringBoot-CRUD.postman_collection.json) file
-    to list all the HTTP methods templates to do crud operations; (Update/Provide own the api link).
-> For POST/PUT Operations in POSTMAN body>raw>json.
+> After: | mvn spring-boot:run | in Terminal to start poject.
+> Go to the Postman website for CRUD Operations & (Provide the api link). 
+> For POST/PUT Operations in POSTMAN check for (body > raw > json).
 ```
-<a href="https://www.postman.com/"> POSTMAN </a>
+> <a href="https://www.postman.com/"> POSTMAN </a>
